@@ -1,0 +1,33 @@
+.view-table {
+    text-align: center;
+}
+
+
+table {
+    background: #fff;
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 10px 10px  #888888;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
